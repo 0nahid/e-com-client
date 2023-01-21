@@ -6,6 +6,7 @@ const nextConfig = {
       { loader: '@next/font/google', options: { subsets: ['latin'] } },
     ],
   },
+  distDir: 'build',
 }
 
 module.exports = nextConfig
